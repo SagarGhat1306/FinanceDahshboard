@@ -8,22 +8,24 @@ import {
   PieChart as RePie, Pie, Cell 
 } from 'recharts';
 
-// --- MOCK DATA ---
-const INITIAL_TRANSACTIONS = [
-  { id: 1, date: '2026-04-01', amount: 2500, category: 'Salary', type: 'income' },
-  { id: 2, date: '2026-04-02', amount: 120, category: 'Food', type: 'expense' },
-  { id: 3, date: '2026-04-03', amount: 450, category: 'Rent', type: 'expense' },
-  { id: 4, date: '2026-04-04', amount: 80, category: 'Transport', type: 'expense' },
-  { id: 5, date: '2026-04-05', amount: 200, category: 'Shopping', type: 'expense' },
-];
+import { INITIAL_TRANSACTIONS, DATA_TREND } from './assets/mockData';
 
-const DATA_TREND = [
-  { name: 'Mon', balance: 2100 },
-  { name: 'Tue', balance: 1980 },
-  { name: 'Wed', balance: 1530 },
-  { name: 'Thu', balance: 1450 },
-  { name: 'Fri', balance: 3200 },
-];
+// // --- MOCK DATA ---
+// const INITIAL_TRANSACTIONS = [
+//   { id: 1, date: '2026-04-01', amount: 2500, category: 'Salary', type: 'income' },
+//   { id: 2, date: '2026-04-02', amount: 120, category: 'Food', type: 'expense' },
+//   { id: 3, date: '2026-04-03', amount: 450, category: 'Rent', type: 'expense' },
+//   { id: 4, date: '2026-04-04', amount: 80, category: 'Transport', type: 'expense' },
+//   { id: 5, date: '2026-04-05', amount: 200, category: 'Shopping', type: 'expense' },
+// ];
+
+// const DATA_TREND = [
+//   { name: 'Mon', balance: 2100 },
+//   { name: 'Tue', balance: 1980 },
+//   { name: 'Wed', balance: 1530 },
+//   { name: 'Thu', balance: 1450 },
+//   { name: 'Fri', balance: 3200 },
+// ];
 
 const COLORS = ['#6366f1', '#f43f5e', '#22c55e', '#eab308'];
 
